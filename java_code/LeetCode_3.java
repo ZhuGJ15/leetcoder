@@ -1,3 +1,5 @@
+package java_code;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -19,7 +21,7 @@ public class LeetCode_3 {
         Map<Character, Integer> map = new HashMap<>();
 
         int head = 0;
-        map.put(s.charAt(0), 0);
+        map.put(s.charAt(0), 0);s.substring(0, 1);
         int res = 1;
 
         for (int i = 1; i < s.length(); i++) {
